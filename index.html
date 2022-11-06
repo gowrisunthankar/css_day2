@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .div1 {
+                width: 100px;
+                height: 100px;
+                border: 1px solid blue;
+                box-sizing: border-box;
+              }
+
+              .div2 {
+                width: 100px;
+                height: 100px;
+                border: 1px solid red;
+                box-sizing: border-box;
+              }
+              .div3 {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+ 
+</style>
+<body>
+    <h2 style="text-align:center; text-decoration:underline">CSS interview question day-2</h2>
+    <div>
+        <!-- 1.what is box sizing -->
+        <div class="div1">Lorem ipsum dolor sit amet. </div>
+        <div class="div2">Lorem ipsum dolor sit amet.</div>
+        <p>The CSS box-sizing property allows us to include the padding and border in an element's total width and height.</p>
+        <p>width + padding + border = actual width of an element <br>
+            height + padding + border = actual height of an element <br>
+            This means: When you set the width/height of an element, the element often appears bigger than you have set (because the element's border and padding are added to the element's specified width/height).</p>
+    </div>
+    <div>
+        <!-- 2.what is animation delay -->
+        <p>The animation-delay CSS property specifies the amount of time to wait from applying the animation to an element before beginning to perform the animation. The animation can start later, immediately from its beginning, or immediately and partway through the animation.</p>
+</div>
+<div>
+    <!-- 3.which property we use to merge the cell vertically in grid -->
+    <p>You can merge two or more table cells in a column using the colspan attribute in a <td> HTML tag (table data). </p>
+        <table align="center" border="1">
+            <tr>
+                <th>Name</th>
+                <th colspan="2">About</th>
+            </tr>
+            <tr>
+                <td>gowri</td>
+                <td>24</td>
+                <td>frontend</td>
+            </tr>
+            <tr>
+                <td>pooja</td>
+                <td>30</td>
+                <td>Backend</td>
+
+            </tr>
+        </table>
+</div>
+<div>
+    <!-- 4.which property we use to merge the cell horizontaly in grid -->
+    <p>The rowspan is used to merge or combine the number of cells in a row </p>
+    <table align="center" border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>gowri</td>
+            <td rowspan="2">23</td>
+        </tr>
+        <tr>
+            <td>vidya</td>
+        </tr>
+    </table>
+    </div>
+    <div>
+        <!-- 5. explain css box model -->
+        <p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. </p>
+        <div class="div3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, facere.</div>
+    </div>
+    <div>
+        <!-- 6.difference between display none and visibility hidden -->
+        <p>visibility:hidden hides the element, but it still takes up space in the layout. <br> display:none removes the element from the document. It does not take up any space.</p>
+    </div>
+</body>
+</html>
